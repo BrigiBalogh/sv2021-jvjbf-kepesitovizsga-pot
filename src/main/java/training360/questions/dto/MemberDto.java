@@ -9,5 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MemberDto {
 
+    private Long id;
     private String name;
 }
