@@ -8,4 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class QuestionDto {
+
+    private Long id;
+    private String question;
+    private boolean answered;
+    private String answer;
+
 }
+
